@@ -1,0 +1,39 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.game h1 {
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.game-info {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.game-controls {
+  margin-top: 20px;
+}
+
+.game-controls button {
+  background: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-controls button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

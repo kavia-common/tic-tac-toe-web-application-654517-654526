@@ -1,0 +1,26 @@
+.game-mode {
+  text-align: center;
+  padding: 20px;
+}
+
+.game-mode h2 {
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.game-mode button {
+  background: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-mode button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,23 @@
+.square {
+  background: var(--bg-primary);
+  border: none;
+  border-radius: 4px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+  height: 96px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover:not(.filled) {
+  background: var(--bg-secondary);
+}
+
+.square.filled {
+  cursor: not-allowed;
+}
